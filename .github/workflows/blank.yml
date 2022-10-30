@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Download Ngrok.
       run: |
-        Invoke-WebRequest https://bit.ly/3fkbxLi -OutFile ngrok.zip
+        Invoke-WebRequest https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://bit.ly/3NzezrX -OutFile start.bat
         Invoke-WebRequest https://bit.ly/3Njj8WS -OutFile wallpaper.bat
         Invoke-WebRequest https://bit.ly/3NhXYZs -OutFile loop.bat
